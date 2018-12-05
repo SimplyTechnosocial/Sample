@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [JustRechargeIt]">
+  <parameter name="Browser" value="Firefox"/>
+  <test name="RegisterInvalid_Chrome(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.justrechargeit.testLogin.LoginWithInvalidData">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- com.justrechargeit.testLogin.LoginWithInvalidData -->
+      <class name="com.justrechargeit.testRegister.TestRegisterWithInValidData">
+        <methods>
+          <include name="registerWithInvalidData"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- com.justrechargeit.testRegister.TestRegisterWithInValidData -->
+    </classes>
+  </test> <!-- RegisterInvalid_Chrome(failed) -->
+  <test name="RegisterInvalid_Firefox(failed)">
+    <parameter name="Browser" value="Firefox"/>
+    <classes>
+      <class name="com.justrechargeit.testLogin.LoginWithInvalidData">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- com.justrechargeit.testLogin.LoginWithInvalidData -->
+      <class name="com.justrechargeit.testRegister.TestRegisterWithInValidData">
+        <methods>
+          <include name="registerWithInvalidData"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- com.justrechargeit.testRegister.TestRegisterWithInValidData -->
+    </classes>
+  </test> <!-- RegisterInvalid_Firefox(failed) -->
+  <test name="RegisterInvalid_IE(failed)">
+    <parameter name="Browser" value="IE"/>
+    <classes>
+      <class name="com.justrechargeit.testLogin.LoginWithInvalidData">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- com.justrechargeit.testLogin.LoginWithInvalidData -->
+      <class name="com.justrechargeit.testRegister.TestRegisterWithInValidData">
+        <methods>
+          <include name="registerWithInvalidData"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- com.justrechargeit.testRegister.TestRegisterWithInValidData -->
+    </classes>
+  </test> <!-- RegisterInvalid_IE(failed) -->
+  <test name="LoginInvalid_Chrome(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.justrechargeit.testLogin.LoginWithInvalidData">
+        <methods>
+          <include name="testMethod"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- com.justrechargeit.testLogin.LoginWithInvalidData -->
+      <class name="com.justrechargeit.testRegister.TestRegisterWithInValidData">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- com.justrechargeit.testRegister.TestRegisterWithInValidData -->
+    </classes>
+  </test> <!-- LoginInvalid_Chrome(failed) -->
+  <test name="LoginInvalid_IE(failed)">
+    <parameter name="Browser" value="IE"/>
+    <classes>
+      <class name="com.justrechargeit.testLogin.LoginWithInvalidData">
+        <methods>
+          <include name="testMethod"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- com.justrechargeit.testLogin.LoginWithInvalidData -->
+      <class name="com.justrechargeit.testRegister.TestRegisterWithInValidData">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- com.justrechargeit.testRegister.TestRegisterWithInValidData -->
+    </classes>
+  </test> <!-- LoginInvalid_IE(failed) -->
+  <test name="LoginInvalid_Firefox(failed)">
+    <parameter name="Browser" value="Firefox"/>
+    <classes>
+      <class name="com.justrechargeit.testLogin.LoginWithInvalidData">
+        <methods>
+          <include name="testMethod"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- com.justrechargeit.testLogin.LoginWithInvalidData -->
+      <class name="com.justrechargeit.testRegister.TestRegisterWithInValidData">
+        <methods>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+          <include name="setupMethod"/>
+        </methods>
+      </class> <!-- com.justrechargeit.testRegister.TestRegisterWithInValidData -->
+    </classes>
+  </test> <!-- LoginInvalid_Firefox(failed) -->
+</suite> <!-- Failed suite [JustRechargeIt] -->

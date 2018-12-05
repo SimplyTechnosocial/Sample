@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="JustRechargeIt">
+	<test name="RegisterInvalid_Chrome">
+	<parameter name="Browser" value="Chrome"/>
+		<classes>
+			<class name="com.justrechargeit.testRegister.TestRegisterWithInValidData" />
+		</classes>
+	</test>
+	<test name="RegisterInvalid_Firefox">
+	<parameter name="Browser" value="Firefox"/>
+		<classes>
+			<class name="com.justrechargeit.testRegister.TestRegisterWithInValidData" />
+		</classes>
+	</test>
+	<test name="RegisterInvalid_IE">
+	<parameter name="Browser" value="IE"/>
+		<classes>
+			<class name="com.justrechargeit.testRegister.TestRegisterWithInValidData" />
+		</classes>
+	</test>
+ <test name="LoginInvalid_Chrome">
+	<parameter name="Browser" value="Chrome"/>
+		<classes>
+			<class name="com.justrechargeit.testLogin.TestLoginWithInvalidData" />
+		</classes>
+	</test>
+	 <test name="LoginInvalid_IE">
+	<parameter name="Browser" value="IE"/>
+		<classes>
+			<class name="com.justrechargeit.testLogin.TestLoginWithInvalidData" />
+		</classes>
+	</test>
+	
+	<test name="LoginInvalid_Firefox">
+	<parameter name="Browser" value="Firefox"/>
+		<classes>
+			<class name="com.justrechargeit.testLogin.TestLoginWithInvalidData" />
+		</classes>
+	</test>
+	
+	<test name="Profile_Verify HelpText">
+	<parameter name="Browser" value="Chrome"/>
+		<classes>
+			<class name="com.justrechargeit.testProfile.TestVerifyHelpTextForProfileFields" />
+		</classes>
+	</test>
+	
+	<test name="Profile_Valid Data">
+	<parameter name="Browser" value="Chrome"/>
+		<classes>
+			<class name="com.justrechargeit.testProfile.TestUpdateProfileWithValidData" />
+		</classes>
+	</test>
+	
+	<test name="Profile_Valid Data">
+	<parameter name="Browser" value="Chrome"/>
+		<classes>
+			<class name="com.justrechargeit.testProfile.TestUpdateProfileWithInvalidData" />
+		</classes>
+	</test>
+</suite>
